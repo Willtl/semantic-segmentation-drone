@@ -2,13 +2,11 @@
 
 This is a quick exploration of semantic segmentation using PyTorch on the Aerial Semantic Segmentation Drone Dataset. The project aims to provide a basic understanding of training segmentation models and experimenting with different architectures.
 
-**Note:** Code is terrible; require refactoring.
+**Note:** This code is just terrible; require refactoring. Mostly focused on improving augmentations, training recipe, and postprocessing.
 
+Initial results (only trained for 10 epochs +- 30min.
 
-<video controls>
-  <source src="plots/video_bad_augs.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![good augmentations](plots/good_augs.gif)
 
 ## Dataset
 - **Name:** Aerial Semantic Segmentation Drone Dataset
@@ -35,7 +33,7 @@ This is a quick exploration of semantic segmentation using PyTorch on the Aerial
 - Applied strategies like blurring to remove noise from the segmentation mask.
 
 ## Future Improvements
-- Train for longer durations to observe potential performance improvements (only trained for 10 epochs +- 30min.).
+- Train for longer durations to observe potential performance improvements.
 - Experiment with different model architectures, augmentations, and datasets for validation.
 - Refactor code for better readability and reusability.
 
