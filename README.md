@@ -4,7 +4,7 @@ This is a quick exploration of semantic segmentation using PyTorch on the Aerial
 
 **Note:** This code is just terrible; require refactoring. Mostly focused on improving augmentations, training recipe, and postprocessing.
 
-Initial results (only trained for 10 epochs +- 30min.
+Initial results on my drone data (only trained for 10 epochs +- 30min.
 
 ![good augmentations](plots/good_augs.gif)
 
